@@ -422,7 +422,7 @@ div img {
         width: 35vw;
     }
     #Inicio{
-        height: 80vh;
+        height: 110vh;
 
     }
   #Quem{
@@ -440,8 +440,8 @@ div img {
   
   
     .formulario{
-        margin-top: 160vh;
-        width: 100vw;
+        margin-top: 210vh;
+     
     }
     .forme{
         width: 100vw;
@@ -452,7 +452,7 @@ div img {
         
     }
     .imagen1{
-        width: 54vh;
+        width: 100vw;
     }
     .imagen2{
         width: 99vw;
@@ -465,7 +465,7 @@ div img {
         flex-direction: column;
     }
     footer{
-        margin-top: 70vh;
+        margin-top: 100vh;
     }
     .container {
         position: relative;
