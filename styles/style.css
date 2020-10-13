@@ -433,12 +433,12 @@ div img {
     }
     .capa{
         margin-top: 0;
-        height: 100vh;
-        width: 110vw;
+        height: 40vh;
+        width: 100%;
         background-image: url('../svgs/FUNDO.png');
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background-size: contain;
+        background-position-y: 0px;
     }
     .max-header{
         width: 50vw;
@@ -494,8 +494,6 @@ div img {
  
     .forme{
         width: 100vw;
-        
-     
     }
     .formulario{
         margin-right: 21vw;
