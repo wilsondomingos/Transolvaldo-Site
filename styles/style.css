@@ -1,6 +1,9 @@
 @font-face {
     src: url("../fonts/OpenSans-Regular.ttf");
-    font-family: "OpenSans";  
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
+html,body{
     overflow-x: hidden;
 }
 * {
@@ -8,6 +11,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6, .font-primary {
+    font-family: "Raleway", sans-serif;
+  }
 li {
     list-style: none;
 }
@@ -20,6 +26,7 @@ a {
 }
 
 header {
+    
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -27,6 +34,12 @@ header {
     transition: all 0.6s ease-out;
     box-shadow: 1px 7px 18px -17px rgba(0,0,0,0.75);
    
+}
+.traco{
+  width: 10vw;
+  margin-left:16vw ;
+ 
+  background:  #000;
 }
 .capa{
     margin-top: 0;
@@ -80,7 +93,7 @@ header {
 }
 .imagen2{
     width: 43vw;
-    height: 55vh;
+    height: 35vh;
 }
 .imagen2{
     background-image: url('../svgs/camiao.jpg');
@@ -91,7 +104,7 @@ header {
 }
 .imagen3{
     width: 43vw;
-    height: 55vh;
+    height: 35vh;
 }
 .imagen3{
     background-image: url('../svgs/navio.jpg');
@@ -103,6 +116,19 @@ header {
 .cadr1 p{
     color: #878787;
     text-align: justify;
+    font-size: 18px;
+}
+.cadr1{
+    opacity: .9;
+}
+.outroservico{
+    color: #878787;
+    font-size: 18px;
+}
+.lista1{
+    font-size: 16px;
+    font-style: italic;
+    color: #878787;
     
 }
 .sobreservico p{
@@ -151,6 +177,7 @@ div img {
     grid-area: nav;
     display: grid;
     align-content: center;
+
 }
 .nav-bar ul {
     display: grid;
@@ -159,8 +186,7 @@ div img {
 }
 .nav-bar a {
     position: relative;
-    src: url("../fonts/OpenSans-Regular.ttf");
-    font-family: "OpenSans";  
+  font-family: "Raleway", sans-serif;
   
     transition: all 0.4s ease-out;
 }
@@ -364,6 +390,10 @@ div img {
   #footer .credits a {
     color: #9eccf4;
   }
+
+
+
+  
   
 
   
@@ -422,30 +452,53 @@ div img {
         width: 35vw;
     }
     #Inicio{
-        height: 110vh;
+        height: 130vh;
 
     }
   #Quem{
    margin-top: 50vh;
   }
+  #info{
+      margin-top: 110vh;
+     
+      
+  }
+  #info p{
+  text-align: justify;  
+}
+    .cadr1 p{
+     
+       font-size: 12px;
+    
+    }
     .cadr1{
-       width: 80vw;
+        opacity: .9;
+        width: 130vw;
     }
     .sobreservico{
-        text-align: center;
-        margin-left: 15vw;
+        text-align: justify;
+        margin-left: 12vw;
         width: 110vw;
-        font-size: 20px;
+        font-size: 12px;
+    }
+    .sobreservico p{
+  
+        font-size: 12px;
+    }
+    .lista1 li{
+        font-size: 12px;
+       
+
     }
   
-  
-    .formulario{
-        margin-top: 210vh;
-     
-    }
+ 
     .forme{
         width: 100vw;
+        
      
+    }
+    .formulario{
+        margin-right: 21vw;
     }
     .imagens{
         margin-top: 70vh;
@@ -464,9 +517,7 @@ div img {
         display: flex;
         flex-direction: column;
     }
-    footer{
-        margin-top: 100vh;
-    }
+  
     .container {
         position: relative;
         padding: 0 20px;
